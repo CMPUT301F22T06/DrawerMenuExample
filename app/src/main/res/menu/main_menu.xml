@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_home_menu_item"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/nav_recipe_menu_item"
+            android:title="Recipe"
+            android:icon="@drawable/ic_baseline_auto_stories_24"/>
+        <item android:id="@+id/nav_shopping_list_menu_item"
+            android:title="Shopping List"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Search">
+        <menu>
+            <item android:id="@+id/nav_search"
+                android:title="Search Recipe"
+                android:icon="@drawable/ic_baseline_manage_search_24"/>
+        </menu>
+        </item>
+    </group>
+</menu>
